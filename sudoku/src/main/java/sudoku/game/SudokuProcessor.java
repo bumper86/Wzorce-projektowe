@@ -1,60 +1,58 @@
 package sudoku.game;
 
 public class SudokuProcessor {
-    private SudokuBoard sudokuBoard = new SudokuBoard();
+
+    private SudokuBoard sudokuBoard;
 
     public SudokuProcessor(SudokuBoard sudokuBoard) {
         this.sudokuBoard = sudokuBoard;
+        solve(0, 0);
+        display();
     }
 
-    private int checkRow(int x, int value) {
-        for (int i = 0; i < 9; i++) {
-            if (sudokuBoard.getSudokuRows().get(x).getSudokuFields().get(i).getValue() == value) return 0;
-        } return 1;
-    }
+    private boolean solve(int i, int j) {
+        if (i == 9) {
+            i = 0;
+            if (++j == 9){
+                j=0;
 
-    private int checkColumn (int y, int value) {
-        for (int i = 0; i < 9; i++) {
-            if (sudokuBoard.getSudokuRows().get(i).getSudokuFields().get(y).getValue() == value) return 0;
-        } return 1;
-    }
+            return true;}
+        }
+        if (sudokuBoard.getSudokuRows().get(i).getSudokuFields().get(j).getValue() != 0)  // skip filled cells
+            return solve(i + 1, j);
 
-    private int checkGrid(int x, int y , int value) {
-        x = (x / 3) * 3;
-        y = (y / 3) * 3;
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                if (sudokuBoard.getSudokuRows().get(x + i).getSudokuFields().get(y + j).getValue() == value) return 0;
-            }
-        } return 1;
-    }
-
-    private void navigate(int x, int y) {
-        if (y < 8)
-            solvesudoku(x, y + 1);
-        else
-            solvesudoku(x + 1, 0);
-    }
-
-    public void display() {
-        System.out.println("The solved Sudoku \n");
-                System.out.println(sudokuBoard);
-                System.exit(0);
-    }
-
-    public void solvesudoku(int x, int y) {
-        if (x > 8)
-            display();
-        if (sudokuBoard.getSudokuRows().get(x).getSudokuFields().get(y).getValue() != 0) {
-            navigate(x, y);
-        } else {
-            for (int i = 1; i <= 9; i++) {
-                if ((checkRow(x, i) == 1) && (checkColumn(y, i) == 1) && (checkGrid(x, y, i) == 1)) {
-                    sudokuBoard.getSudokuRows().get(x).getSudokuFields().get(y).setValue(i);
-                    navigate(x, y);
-                }
+        for (int val = 1; val <= 9; ++val) {
+            if (legal(i, j, val)) {
+                sudokuBoard.getSudokuRows().get(i).getSudokuFields().get(j).setValue(val);
+                if (solve(i + 1, j))
+                    return true;
             }
         }
-        sudokuBoard.getSudokuRows().get(x).getSudokuFields().get(y).setValue(0);
+        sudokuBoard.getSudokuRows().get(i).getSudokuFields().get(j).setValue(0);
+        return false;
+    }
+
+    private boolean legal(int i, int j, int val) {
+        for (int k = 0; k < 9; ++k)  // row
+            if (val == sudokuBoard.getSudokuRows().get(k).getSudokuFields().get(j).getValue())
+                return false;
+
+        for (int k = 0; k < 9; ++k) // col
+            if (val == sudokuBoard.getSudokuRows().get(i).getSudokuFields().get(k).getValue())
+                return false;
+
+        int boxRowOffset = (i / 3) * 3;
+        int boxColOffset = (j / 3) * 3;
+        for (int k = 0; k < 3; ++k) // box
+            for (int m = 0; m < 3; ++m)
+                if (val == sudokuBoard.getSudokuRows().get(boxRowOffset + k).getSudokuFields().get(boxColOffset + m).getValue())
+                    return false;
+
+        return true; // no violations, so it's legal
+    }
+
+    private void display() {
+        System.out.println("The solved Sudoku \n");
+        System.out.println(sudokuBoard);
     }
 }
