@@ -36,9 +36,10 @@ public class SudokuProcessor {
             solvesudoku(x + 1, 0);
     }
 
-    private void display() {
+    public void display() {
         System.out.println("The solved Sudoku \n");
                 System.out.println(sudokuBoard);
+                System.exit(0);
     }
 
     public void solvesudoku(int x, int y) {
