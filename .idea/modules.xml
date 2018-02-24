@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku.iml" group="sudoku" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku/sudoku_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku/sudoku_main.iml" group="sudoku" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku/sudoku_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku/sudoku_test.iml" group="sudoku" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wzorce.iml" filepath="$PROJECT_DIR$/.idea/modules/wzorce.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wzorce_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wzorce_main.iml" group="wzorce" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wzorce_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wzorce_test.iml" group="wzorce" />
