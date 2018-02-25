@@ -24,8 +24,4 @@ public class SudokuElement {
     public int getValue() {
         return value;
     }
-
-    public void removeAllowedValue(int value) {
-        allowedValue.remove(value);
-    }
 }
