@@ -14,14 +14,14 @@ public class SudokuFiltr {
             System.out.println("Value: " + dataDto.getValue() + " is used in local square.");
             System.out.println("Please use different one!!");
         } else {
-            board.getSudokuRows().get(dataDto.getX()).getSudokuFields().get(dataDto.getY()).setValue(dataDto.getValue());
+            board.getSudokuRows().get(dataDto.getX() - 1).getSudokuFields().get(dataDto.getY() - 1).setValue(dataDto.getValue());
         }
         return board;
     }
 
     private boolean isValueUsedInRow(SudokuBoard board, SudokoDataDto dataDto) {
-        int x = dataDto.getX();
-        int y = dataDto.getY();
+        int x = dataDto.getX() - 1;
+        int y = dataDto.getY() - 1;
         int value = dataDto.getValue();
         return IntStream.range(0,9)
                 .filter(k -> k != x)
@@ -29,8 +29,8 @@ public class SudokuFiltr {
     }
 
     private boolean isValueUsedInColumn(SudokuBoard board, SudokoDataDto dataDto) {
-        int x = dataDto.getX();
-        int y = dataDto.getY();
+        int x = dataDto.getX() - 1;
+        int y = dataDto.getY() - 1;
         int value = dataDto.getValue();
         return IntStream.range(0,9)
                 .filter(l -> l!=y)
@@ -38,14 +38,14 @@ public class SudokuFiltr {
     }
 
     private boolean isValueUsedInLocalSquare(SudokuBoard board, SudokoDataDto dataDto) {
-        int x = dataDto.getX();
-        int y = dataDto.getY();
+        int x = dataDto.getX() - 1;
+        int y = dataDto.getY() - 1;
         int value = dataDto.getValue();
         int xMin = minLimit(x);
         int xMax = maxLimit(x);
         int yMin = minLimit(y);
         int yMax = maxLimit(y);
-        for (int i = yMin; i < yMax; y++)
+        for (int i = yMin; i < yMax; i++)
             for (int j = xMin; j < xMax; j++)
                 if(j != x && i!= y)
                     if(board.getSudokuRows().get(j).getSudokuFields().get(i).getValue() == value)

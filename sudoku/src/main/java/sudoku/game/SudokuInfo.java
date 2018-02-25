@@ -11,25 +11,25 @@ public class SudokuInfo {
 
         System.out.println("Write location of value using (x,y,value)");
         do {
-            System.out.println("Write location x form 0 to 9:");
-            while (!scan.hasNext()) {
-                System.out.println("That's not a correct number!");
+            System.out.println("Write location x form 1 to 9:");
+            while (!scan.hasNextInt()) {
+                System.out.println("That's not a correct number! \nWrite new number:");
                 scan.next();
             }
             x = scan.nextInt();
-        } while (x < 0 || x >9);
+        } while (x < 1 || x >9);
         do {
-            System.out.println("Write location y from 0 to 9:");
-            while (!scan.hasNext()) {
-                System.out.println("That's not a correct number!");
+            System.out.println("Write location y from 1 to 9:");
+            while (!scan.hasNextInt()) {
+                System.out.println("That's not a correct number! \nWrite new number:");
                 scan.next();
             }
             y = scan.nextInt();
-        } while (y < 0 || y >9);
+        } while (y < 1 || y >9);
         do {
             System.out.println("Write value from 1 to 9:");
-            while (!scan.hasNext()) {
-                System.out.println("That's not a correct number!");
+            while (!scan.hasNextInt()) {
+                System.out.println("That's not a correct number! \nWrite new number:");
                 scan.next();
             }
             value = scan.nextInt();

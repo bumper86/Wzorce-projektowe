@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8c86e4-5c15-4839-9deb-d8d7de951588" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokoDataDto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuEnd.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuElement.java" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuElement.java" />
+      <change beforePath="$PROJECT_DIR$/sudoku/out/production/classes/sudoku/game/SudokuFiltr.class" afterPath="$PROJECT_DIR$/sudoku/out/production/classes/sudoku/game/SudokuFiltr.class" />
+      <change beforePath="$PROJECT_DIR$/sudoku/out/production/classes/sudoku/game/SudokuGame.class" afterPath="$PROJECT_DIR$/sudoku/out/production/classes/sudoku/game/SudokuGame.class" />
+      <change beforePath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java" />
       <change beforePath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java" />
+      <change beforePath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java" afterPath="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="SudokoDataDto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokoDataDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="-68">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
@@ -61,45 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuFiltr.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SudokuFiltr.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuEnd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuRow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuRow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SudokuGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SudokuInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -634,10 +610,10 @@
         <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuProcessor.java" />
         <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuElement.java" />
         <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuEnd.java" />
-        <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java" />
         <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokoDataDto.java" />
-        <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java" />
         <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java" />
+        <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java" />
+        <option value="$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java" />
       </list>
     </option>
   </component>
@@ -953,12 +929,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518888632780</updated>
-      <workItem from="1518888639447" duration="41596000" />
+      <workItem from="1518888639447" duration="42600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41596000" />
+    <option name="totallyTimeSpent" value="42600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1168" height="840" extended-state="6" />
@@ -973,7 +949,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4167813" sideWeight="0.5034722" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4167813" sideWeight="0.4965278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4167813" sideWeight="0.4965278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2173315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -986,7 +962,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36863825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36863825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1006,12 +982,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java</url>
-          <line>15</line>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1260,17 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuProcessorTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1331,6 +1314,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1339,18 +1333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokoDataDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="-68">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
@@ -1362,18 +1348,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java">
+    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuGame.java">
+    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku/src/main/java/sudoku/game/SudokuFiltr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
         </state>
       </provider>

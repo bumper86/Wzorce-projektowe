@@ -6,9 +6,9 @@ public class SudokuGame {
 
     public static void main(String[] args) {
         boolean end = true;
-        String info = "";
         Scanner scan = new Scanner(System.in);
         while (end) {
+            String info = "";
             SudokuInfo sudokuInfo = new SudokuInfo();
             SudokuBoard sb = new SudokuBoard();
             SudokuFiltr filtr = new SudokuFiltr();
